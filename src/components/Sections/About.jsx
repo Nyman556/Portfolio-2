@@ -18,10 +18,7 @@ function About() {
 				</p>
 				<p>
 					Just nu letar jag efter en tjänst som utvecklare i eller i närheten av
-					Växjö, alternativt en möjlighet att arbeta på distans. Min huvudstack
-					inkluderar React med TypeScript eller JavaScript, Tailwind CSS och
-					Node.js. Jag ser fram emot att bidra med mina kunskaper och växa
-					tillsammans med ett spännande team!
+					Växjö, alternativt en möjlighet att arbeta på distans.
 				</p>
 			</div>
 		</section>

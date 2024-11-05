@@ -152,20 +152,12 @@ export const skillsData = [
 	},
 	{
 		category: "Ramverk",
-		skills: [
-			"react",
-			"nextJS",
-			"vite",
-			"angular",
-			"expressJS",
-			"ASP.Net",
-			"tailwindCSS",
-		],
+		skills: ["react", "nextJS", "vite", "angular", "expressJS", "tailwindCSS"],
 		bgColor: "bg-green-500",
 	},
 	{
 		category: "backend",
-		skills: ["Node.js", ".NET", "REST APIer"],
+		skills: ["Node.js", ".NET", "REST API", "Firebase"],
 		bgColor: "bg-purple-500",
 	},
 	{
@@ -188,7 +180,7 @@ export const ProjectsData = [
 			"Implementerade produktkatalog, filtrering, kundkorg och checkout-funktionalitet.",
 			"Använde TailwindCSS för att skapa en modern och responsiv design.",
 		],
-		techStack: ["javascript", "strapi", "react", "tailwindCSS"],
+		techStack: ["javascript", "react", "tailwindCSS", "strapi"],
 		githubLink: "https://github.com/Nyman556/React-ecommerce",
 		liveDemoLink: "",
 		image: trendfusion,
