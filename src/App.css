@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+body {
+	font-family: "Inter", sans-serif;
+}
+
+/* Headings */
+h1 {
+	@apply text-4xl font-bold;
+}
+h2 {
+	@apply text-3xl font-bold text-gray-100;
+}
+.h2-small {
+	@apply text-xl font-normal text-gray-400;
+}
+h3 {
+	@apply text-lg text-gray-400;
+}
+h4 {
+	@apply text-xl font-semibold text-gray-200 capitalize;
+}
+
+/* Paragrafer */
+.p-sm {
+	@apply text-gray-300 text-sm;
+}
+.p-base {
+	@apply text-gray-300 text-base;
+}
+
+/* Custom */
+.tag {
+	@apply bg-opacity-30 px-3 py-1.5 text-xs font-medium mr-2 mb-2 rounded-full capitalize cursor-default;
+}
+.icon-link {
+	@apply text-gray-400 hover:text-white transition-colors text-2xl;
+}
+.btn {
+	@apply bg-gray-800 hover:bg-white hover:text-gray-950 px-2 py-1 rounded transition duration-300 border border-white text-gray-100;
+}
+.bio-panel {
+	@apply pl-40 pt-40 sticky top-0;
+}
