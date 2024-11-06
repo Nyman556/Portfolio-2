@@ -32,9 +32,6 @@ function BioPanel() {
 							>
 								<item.icon className="text-2xl" />
 							</a>
-							<Tooltip anchorSelect={"#" + item.desc} place="bottom">
-								{item.desc}
-							</Tooltip>
 						</div>
 					))}
 				</div>
