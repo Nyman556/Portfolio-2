@@ -5,8 +5,8 @@ import Tag from "../../General/Tag";
 function ProjectItem({ project }) {
 	return (
 		<li className="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:bottom-0 before:w-0.5 before:bg-gray-600">
-			<div className="flex flex-col md:flex-row">
-				<div className="md:w-1/3 mb-4 md:mb-0 md:mr-6">
+			<div className="flex">
+				<div className=" mb-4 md:mb-0 md:mr-6">
 					<img
 						width="300"
 						height="200"
