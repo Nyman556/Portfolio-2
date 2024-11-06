@@ -1,6 +1,6 @@
 import "./App.css";
-import BioPanel from "./components/BioPanel";
-import MainContent from "./components/MainContent";
+import BioPanel from "./components/Sections/BioPanel";
+import MainContent from "./components/Sections/MainContent";
 
 function App() {
 	return (

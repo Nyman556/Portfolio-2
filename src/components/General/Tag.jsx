@@ -1,5 +1,5 @@
 import React from "react";
-import { skillsData } from "../data";
+import { skillsData } from "../Content/genData";
 function Tag({ skill, fixedBg }) {
 	let bgColor = "bg-green-500";
 	let textColor = "text-green-500";

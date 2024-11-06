@@ -1,6 +1,6 @@
 import React from "react";
-import { EducationData } from "../../data";
-import EducationItem from "../Items/EducationItem";
+import { EducationData } from "../../Content/eduData";
+import EducationItem from "./EducationItem";
 
 function Education() {
 	return (

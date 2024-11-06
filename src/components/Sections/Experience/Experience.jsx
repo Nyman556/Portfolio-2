@@ -1,6 +1,6 @@
 import React from "react";
-import ExperienceItem from "../Items/ExperienceItem";
-import { ExperienceData } from "../../data";
+import ExperienceItem from "./ExperienceItem";
+import { ExperienceData } from "../../Content/expData";
 
 function Experience() {
 	return (

@@ -1,8 +1,7 @@
 import React from "react";
 import { MdSimCardDownload } from "react-icons/md";
 import profilePic from "/images/profile.png";
-
-import { socials } from "../data";
+import { socials } from "../Content/genData";
 import { Tooltip } from "react-tooltip";
 
 function BioPanel() {
@@ -24,9 +23,8 @@ function BioPanel() {
 				</a>
 				<div className="flex gap-4">
 					{socials.map((item, idx) => (
-						<>
+						<div key={idx}>
 							<a
-								key={idx}
 								href={item.url}
 								className="icon-link"
 								id={item.desc}
@@ -37,7 +35,7 @@ function BioPanel() {
 							<Tooltip anchorSelect={"#" + item.desc} place="bottom">
 								{item.desc}
 							</Tooltip>
-						</>
+						</div>
 					))}
 				</div>
 			</div>
