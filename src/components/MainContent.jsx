@@ -7,7 +7,7 @@ import Skills from "./Sections/Skills";
 
 function MainContent() {
 	return (
-		<main className=" p-20 pr-60">
+		<main className="pt-20">
 			<About />
 			<Skills />
 			<Experience />

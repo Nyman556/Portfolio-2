@@ -1,7 +1,5 @@
 // Ikoner
-import { FiMail } from "react-icons/fi";
-import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
-import { FaXTwitter } from "react-icons/fa6";
+import { FiGithub, FiLinkedin, FiSend } from "react-icons/fi";
 
 // --- Bilder ---
 // utbildning
@@ -15,13 +13,14 @@ import xedrix from "/images/xedrix.png";
 import trendfusion from "/images/trendFusionThumb.png";
 import angularblog from "/images/AngularBlogThumb.png";
 
-export const contactLinks = [
-	{ url: "mailto:Johan.nyman.dev@gmail.com", icon: FiMail },
-	{ url: "https://github.com/Nyman556", icon: BsGithub },
+export const socials = [
+	{ icon: FiGithub, desc: "Github", path: "https://github.com/Nyman556" },
 	{
-		url: "https://www.linkedin.com/in/johan-nyman-b574831bb/",
-		icon: BsLinkedin,
+		icon: FiLinkedin,
+		desc: "LinkedIn",
+		path: "https://www.linkedin.com/in/johan-nyman-b574831bb/",
 	},
+	{ icon: FiSend, desc: "Mail", path: "mailto:johan.nyman.dev@gmail.com" },
 ];
 
 export const EducationData = [
