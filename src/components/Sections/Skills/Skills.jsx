@@ -1,6 +1,6 @@
 import React from "react";
-import { skillsData } from "../../data";
-import Tag from "../Tag";
+import { skillsData } from "../../Content/genData";
+import Tag from "../../General/Tag";
 
 function Skills() {
 	return (
