@@ -1,9 +1,8 @@
 import React from "react";
-import { ProjectsData } from "../../data";
-import ProjectItem from "../Items/ProjectItem";
+import { ProjectsData } from "../../Content/prjData";
+import ProjectItem from "./ProjectItem";
 
 function Projects() {
-	console.log(ProjectsData);
 	return (
 		<section className="mb-12">
 			<h2 className="text-3xl font-bold mb-6 text-gray-100">Projekt</h2>

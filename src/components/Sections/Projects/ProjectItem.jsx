@@ -1,13 +1,12 @@
 import React from "react";
-import { BsArrowUpRight, BsGithub } from "react-icons/bs";
-import Tag from "../Tag";
+import { BsFillArrowUpRightCircleFill, BsGithub } from "react-icons/bs";
+import Tag from "../../General/Tag";
 
 function ProjectItem({ project }) {
-	console.log(project);
 	return (
 		<li className="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:bottom-0 before:w-0.5 before:bg-gray-600">
-			<div className="flex flex-col md:flex-row">
-				<div className="md:w-1/3 mb-4 md:mb-0 md:mr-6">
+			<div className="flex">
+				<div className=" mb-4 md:mb-0 md:mr-6">
 					<img
 						width="300"
 						height="200"
@@ -52,7 +51,7 @@ function ProjectItem({ project }) {
 							rel="noopener noreferrer"
 							className="flex gap-2 items-center text-gray-300 hover:text-white transition-colors duration-300 text-md"
 						>
-							<BsArrowUpRight />
+							<BsFillArrowUpRightCircleFill />
 							<span>Live Demo</span>
 						</a>
 					</div>
