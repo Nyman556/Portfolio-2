@@ -9,10 +9,9 @@ function BioPanel() {
 		<div className="bio-panel">
 			<div className="flex flex-col items-center md:flex-row md:items-start md:justify-between mb-4">
 				<div className="text-center md:text-left flex flex-col">
-					<h1 className="mb-2">Johan Nyman</h1>
-					<h2 className="h2-small mb-2">Frontend Utvecklare</h2>
-					<h3 className="mb-4">📍 Växjö, Sweden 🇸🇪</h3>
-					<p className=" mb-4">Jag förvandlar tankar till webblösningar!</p>
+					<h1 className="ml-2 mb-2">Johan Nyman</h1>
+					<h2 className="h2-small ml-2 mb-2">Frontend Utvecklare</h2>
+					<h3 className="mb-4">📍 Växjö, Sverige 🇸🇪</h3>
 				</div>
 				<img src={profilePic} alt="Me!" className="h-40" />
 			</div>
